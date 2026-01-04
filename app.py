@@ -10,7 +10,7 @@ app = Flask(__name__, static_folder=None)
 AVAILABLE_MODELS = [
     {"id": "gpt-4o", "name": "GPT-4o", "provider": "OpenAI", "icon": "⚡"},
     {"id": "gpt-4o-mini", "name": "GPT-4o Mini", "provider": "OpenAI", "icon": "🚀"},
-    {"id": "claude-3-5-sonnet", "name": "Claude 3.5 Sonnet", "provider": "Anthropic", "icon": "🧠"},
+    {"id": "claude-sonnet-4.5", "name": "Claude Sonnet 4.5", "provider": "Anthropic", "icon": "🧠"},
     {"id": "gemini-1.5-pro", "name": "Gemini 1.5 Pro", "provider": "Google", "icon": "💎"},
     {"id": "meta-llama/llama-3.1-70b-instruct", "name": "Llama 3.1 70B", "provider": "Meta", "icon": "🦙"},
     {"id": "mistral-large-latest", "name": "Mistral Large", "provider": "Mistral", "icon": "🌪️"}
